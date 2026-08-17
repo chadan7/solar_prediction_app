@@ -16,9 +16,9 @@ An end-to-end data pipeline, machine learning model, and interactive Streamlit w
 │       ├── station07_theoretical.csv
 │       ├── station07_with_K.csv
 │       └── station07_with_K_ratios.csv          # Final production dataset used for modeling
-├── Model/                      # Model training resources & references
-│   ├── Training.ipynb          # Model training and validation notebook
-│   └── model_link.txt          # Direct download link for the trained model weight
+├── Model/                                      # Model training resources & references
+│   ├── Training.ipynb                          # Model training and validation notebook
+│   └── random_forest_k_pv.pkl            # Model itself
 └── codes/                    # Cleaned processing modules
     ├── code1.py
     ├── code2.py
@@ -75,13 +75,7 @@ cd solar_prediction_app
 
 ```
 
-
-2. **Download the model**:
-* Open `Model/Model_link.txt`, download the model file, and save it locally.
-* Update the model path inside `codes/code3_pipeline.py` (line 8) and `app.py` (line 168) to match your local file path.
-
-
-3. **Run the Streamlit application**:
+2. **Run the Streamlit application**:
 ```bash
 python -m streamlit run app.py
 
