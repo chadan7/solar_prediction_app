@@ -5,7 +5,7 @@ from src.code2_weather import fetch_and_prepare_features
 
 
 def predict_solar_yield_pipeline(
-    user_inputs, model_path="models/random_forest_k_pv.pkl"
+    user_inputs, model_path="Model/random_forest_k_pv.pkl"
 ):
     # 1. Fetch Open-Meteo features & timezone
     raw_features_df, times = fetch_and_prepare_features(user_inputs)
