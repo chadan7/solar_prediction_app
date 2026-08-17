@@ -15,9 +15,9 @@ An end-to-end data pipeline, machine learning model, and interactive Streamlit w
 │       ├── Data 2 - k an ratios added.ipynb
 │       ├── station07_theoretical.csv
 │       ├── station07_with_K.csv
-│       └── station07_with_K_ratios.csv          # Final production dataset used for modeling
-├── Model/                                      # Model training resources & references
-│   ├── Training.ipynb                          # Model training and validation notebook
+│       └── station07_with_K_ratios.csv         # Final production dataset used for modeling
+├── Model/                                # Model training resources & references
+│   ├── Training.ipynb                    # Model training and validation notebook
 │   └── random_forest_k_pv.pkl            # Model itself
 └── codes/                    # Cleaned processing modules
     ├── code1.py
