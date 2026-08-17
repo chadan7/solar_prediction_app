@@ -165,7 +165,7 @@ st.sidebar.subheader("📅 Prediction Date")
 selected_date = st.sidebar.date_input("Select Date", datetime.date.today())
 
 # Model Path Verification
-model_path = os.path.join("models", "random_forest_k_pv.pkl")
+model_path = os.path.join("Model", "random_forest_k_pv.pkl")
 
 # Run Pipeline
 if st.sidebar.button("🚀 Predict Solar Yield", type="primary"):
