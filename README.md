@@ -20,9 +20,9 @@ An end-to-end data pipeline, machine learning model, and interactive Streamlit w
 │   ├── Training.ipynb                    # Model training and validation notebook
 │   └── random_forest_k_pv.pkl            # Model itself
 └── codes/                    # Cleaned processing modules
-    ├── code1.py
-    ├── code2.py
-    └── code3.py              # Model loader & predictor pipeline
+    ├── code1_theoretical.py
+    ├── code2_weather.py
+    └── code3_pipeline.py              # Model loader & predictor pipeline
 
 ```
 
