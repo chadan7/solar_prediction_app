@@ -1,7 +1,7 @@
 import joblib
 import pandas as pd
-from src.code1_theoretical import calculate_theoretical_power
-from src.code2_weather import fetch_and_prepare_features
+from codes.code1_theoretical import calculate_theoretical_power
+from codes.code2_weather import fetch_and_prepare_features
 
 
 def predict_solar_yield_pipeline(
