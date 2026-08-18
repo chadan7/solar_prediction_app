@@ -57,9 +57,9 @@ An end-to-end data pipeline, machine learning model, and interactive Streamlit w
 * Clean modular scripts handling data manipulation and inference.
 * **`code3_pipeline.py`**: Loads the trained model binary. **Configuration required**: Before executing, open `code3_pipeline.py` and update the local file path variable pointing to your downloaded model file.
 
-### Prerequisites
+### How to use the app
 
-Ensure Python 3.8+ is installed along with the required libraries:
+Ensure Python 3.8+ is installed along with the required libraries (Open cmd and paste):
 
 ```bash
 pip install streamlit pandas numpy scikit-learn geopy
@@ -80,3 +80,4 @@ cd solar_prediction_app
 python -m streamlit run app.py
 
 ```
+A browser with local host will be launched. The device should be connected to the internet so the app can run smoothly and fetch weather conditions from open-meteo.
