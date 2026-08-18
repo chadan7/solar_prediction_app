@@ -5,7 +5,7 @@ from geopy.geocoders import Nominatim
 import pandas as pd
 import streamlit as st
 
-from Model.code3_pipeline import predict_solar_yield_pipeline
+from codes.code3_pipeline import predict_solar_yield_pipeline
 
 # Page Configuration
 st.set_page_config(
