@@ -2,6 +2,31 @@
 
 An end-to-end data pipeline, machine learning model, and interactive Streamlit web application designed to process solar irradiance parameters ($GHI$, $DNI$, $DHI$), derive theoretical solar power output ($P_{theoretical}$), and predict system energy performance ratios.
 
+### How to use the app
+
+Ensure Python 3.8+ is installed along with the required libraries (Open cmd and paste):
+
+```bash
+pip install streamlit pandas numpy scikit-learn geopy
+
+```
+
+### Installation & Execution
+
+1. **Clone the repository**:
+```bash
+git clone https://github.com/chadan7/solar_prediction_app.git
+cd solar_prediction_app
+
+```
+
+2. **Run the Streamlit application**:
+```bash
+python -m streamlit run app.py
+
+```
+A browser with local host will be launched. The device should be connected to the internet so the app can run smoothly and fetch weather conditions from open-meteo.
+
 ## Repository Structure
 
 ```text
