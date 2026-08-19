@@ -2,16 +2,14 @@
 
 An end-to-end data pipeline, machine learning model, and interactive Streamlit web application designed to process solar irradiance parameters ($GHI$, $DNI$, $DHI$), derive theoretical solar power output ($P_{theoretical}$), and predict system energy performance ratios.
 
-### How to use the app
-```text
+## How to use the app (Installation & Execution)
+
 Ensure Python 3.8+ is installed along with the required libraries (Open cmd and paste):
 
 ```bash
 pip install streamlit pandas numpy scikit-learn geopy
 
 ```
-
-### Installation & Execution
 
 1. **Clone the repository**:
 ```bash
