@@ -80,27 +80,4 @@ A browser with local host will be launched. The device should be connected to th
 * Clean modular scripts handling data manipulation and inference.
 * **`code3_pipeline.py`**: Loads the trained model binary. **Configuration required**: Before executing, open `code3_pipeline.py` and update the local file path variable pointing to your downloaded model file.
 
-### How to use the app
 
-Ensure Python 3.8+ is installed along with the required libraries (Open cmd and paste):
-
-```bash
-pip install streamlit pandas numpy scikit-learn geopy
-
-```
-
-### Installation & Execution
-
-1. **Clone the repository**:
-```bash
-git clone https://github.com/chadan7/solar_prediction_app.git
-cd solar_prediction_app
-
-```
-
-2. **Run the Streamlit application**:
-```bash
-python -m streamlit run app.py
-
-```
-A browser with local host will be launched. The device should be connected to the internet so the app can run smoothly and fetch weather conditions from open-meteo.
